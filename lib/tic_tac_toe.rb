@@ -132,7 +132,7 @@ def play
   if won?
     puts "Congratulations #{winner(@board)}!"
   elsif draw?
-    puts "Cats Game!"
+    puts "Cat's Game!"
   end
 end
 
