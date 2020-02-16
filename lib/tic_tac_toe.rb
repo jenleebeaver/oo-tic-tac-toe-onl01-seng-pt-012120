@@ -111,7 +111,7 @@ def over?
 end
 
 def winner
-  index = []
+  #index = []
   index = won?
   if index == false
     return nil
