@@ -126,12 +126,12 @@ end
 
 def play
   until over?(@board) == true
-    turn(board)
+    turn(@board)
   end
 
-  if won?(board)
+  if won?(@board)
     puts "Congratulations #{winner(board)}!"
-  elsif draw?(board)
+  elsif draw?(@board)
     puts "Cats Game!"
   end
 end
