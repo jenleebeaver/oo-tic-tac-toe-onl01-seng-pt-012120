@@ -111,7 +111,6 @@ def over?
 end
 
 def winner
-  # index = []
   index = won?
 
   if index == nil
@@ -131,7 +130,7 @@ def play
   end
 
   if won?
-    puts "Congratulations #{winner(@board)}!"
+    puts "Congratulations X!"
   elsif draw?
     puts "Cat's Game!"
   end
