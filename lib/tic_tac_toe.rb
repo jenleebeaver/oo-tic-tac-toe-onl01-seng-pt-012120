@@ -113,7 +113,7 @@ end
 def winner
   # index = []
   index = won?
-  
+
   if index == nil
     return nil
   else
